@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="es" prefix="og: http://ogp.me/ns#">
 
 <head>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79254642-5"></script>
+  <script async src="https://www.googletagmanager.com/"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -194,15 +194,22 @@
               methods</b>, data <b>visualization</b> and presenting results.
           </p>
 
-          <p>
-            In recent months, I worked on a BI and analytics project for <a href="https://servpromanassas.com/">ServPro
-              Manassas</a>, where I collaborated closely with CRM and marketing data stored in <b>Hubspot</b>. My work
-            focused
-            on <b>data cleaning</b>, <b>normalization</b>, and <b>enrichment</b>, as well as <b>automating workflows</b>
-              and <b>reporting processes</b> to
-              improve data quality, reduce manual work, and enable more reliable analysis across marketing and sales
-              activities.
-          </p>
+         <p>
+  More recently, I worked on an <a href="https://s07-26-team-33-8dnryneg52zimeygftuqin.streamlit.app/">AI infrastructure project</a> focused on
+  estimating <b>stranded capacity in data centers</b>. The project combined
+  <b>public industry research</b>, <b>data analysis</b>, and <b>benchmarking</b>
+  to build a range-based estimation model using metrics such as capacity
+  utilization, PUE, cooling, and cost per MW.
+</p>
+
+<p>
+  I also worked on a BI and analytics project for
+  <a href="https://servpromanassas.com/">ServPro Manassas</a>, where I worked
+  with CRM and marketing data stored in <b>HubSpot</b>. My work focused on
+  <b>data cleaning</b>, <b>normalization</b>, <b>enrichment</b>, and
+  <b>reporting and workflow automation</b> to improve data quality and reduce
+  manual work.
+</p>
 
           <!-- <p>
             I supported the design and maintenance of reporting structures, ensuring that data from different sources
@@ -210,9 +217,7 @@
 
           </p> -->  
 
-          <p>Currently, I am involved in <b>analytics</b> and <b>BI</b>-related work for <a href="https://guiarutasmayas.com/">Rutas Mayas</a>, contributing to <b>data analysis</b> and
-            reporting initiatives aimed at improving visibility into performance and operational metrics.</p>
-
+    
           <p>
             Previously, I held web performance and marketing analytics roles at <a href="https://www.marketingplaya.com/">Marketing Playa</a> and <a
               href="https://chic-realty.com/">CHIC Realty</a>, where I <b>analyzed</b> user behavior, campaign <b>performance</b>, and <b>conversion metrics</b>, and contributed to <b>BI dashboards</b> and reporting automation.
@@ -565,6 +570,7 @@
             <button class="btn btn-secondary" data-portfolio-section="python">Python</button>
             <button class="btn btn-secondary" data-portfolio-section="sql">SQL</button>
             <button class="btn btn-secondary" data-portfolio-section="ETL">ETL</button>
+             <button class="btn btn-secondary" data-portfolio-section="APIs">APIs</button>
           </div>
           <br>
         </div>
@@ -588,26 +594,23 @@
         </div>
 
       
-        <!-- --------------------- PROYECT: Sales Performane Analysis  -------------------- -->
-
-        <div class="col-md-3 col-sm-6 portfolio-item show column dataviz paper dashboard shiny">
-          <a class="portfolio-link" data-toggle="modal" href="#SalesPerformance">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <p>Sales Performance Analysis</p>
-                <hr>
-                <p class="explanation_portfolio">An online tool to compare genetic maps. Published in
-                  <i>Bioinformatics</i>
-                </p>
-              </div>
+        <!-- --------------------- PROJECT: Sales Performance Analysis -------------------- -->
+      <div class="col-md-3 col-sm-6 portfolio-item show column dataviz python pandas">
+        <a class="portfolio-link" data-toggle="modal" href="#SalesPerformance">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <p>Sales Performance Analysis</p>
+              <hr>
+              <p class="explanation_portfolio">Analysis of sales data to identify revenue drivers, top-performing products and seller performance.<br></p>
             </div>
-            <img class="img-fluid" src="img/portfolio/GenMapComp.png" alt="">
-          </a>
-        </div>
+          </div>
+          <img class="img-fluid" src="img/portfolio/Sales-Performance.png" alt="Sales Performance Analysis">
+        </a>
+      </div>
 
 
         <!-- --------------------- PROYECT: Telecomunicaciones Analysis -------------------- -->
-
+<!-- 
         <div class="col-md-3 col-sm-6 portfolio-item show column dataviz dashboard shiny">
           <a class="portfolio-link" data-toggle="modal" href="#telecomunications">
             <div class="portfolio-hover">
@@ -622,8 +625,42 @@
           </a>
         </div>
 
+-->
+
+      <!-- --------------------- PROJECT: Data Center - Stranded Capacity -------------------- -->
+
+<div class="col-md-3 col-sm-6 portfolio-item show column dataviz python sql ETL APIs dashboard">
+  <a class="portfolio-link" data-toggle="modal" href="#StrandedCapacity">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <p>Data Center Stranded Capacity</p>
+        <hr>
+        <p class="explanation_portfolio">A data-driven approach to estimate stranded capacity and identify opportunities to reduce energy waste.<br></p>
+      </div>
+    </div>
+    <img class="img-fluid" src="img/portfolio/Stranded-capacity.png" alt="Data Center Stranded Capacity">
+  </a>
+</div>
 
 
+<!-- --------------------- PROJECT: Telecom Churn Analysis -------------------- -->
+<div class="col-md-3 col-sm-6 portfolio-item show column dataanalysis dataviz python sql powerbi ETL">
+  <a class="portfolio-link" data-toggle="modal" href="#TelecomChurn">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <p>Telecom Churn Analysis</p>
+        <hr>
+        <p class="explanation_portfolio">Business Intelligence project focused on customer churn, revenue impact and interactive data analysis.<br></p>
+      </div>
+    </div>
+    <img class="img-fluid" src="img/portfolio/capture.png" alt="Telecom Churn Analysis">
+  </a>
+</div>
+
+
+      </div>
+    </div>
+  </section>
 
       </div>
     </div>
@@ -798,15 +835,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Florencia Hidalgo 2025</span>
+          <span class="copyright">Copyright &copy; Florencia Hidalgo 2026</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/R_Graph_Gallery">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
             <li class="list-inline-item">
               <a href="https://github.com/hidalgoflorencia">
                 <i class="fa fa-github"></i>
@@ -1055,9 +1087,9 @@
       </div>
   </center>
 
-  <!-- UKB geo application -->
+  <!-- Market Analysis -->
   <center>
-    <div class="portfolio-modal modal fade" id="ukbGeoApp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="MarketAnalysis" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog h-100">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -1070,41 +1102,29 @@
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <img src="img/portfolio/UKB_geo.png" width="180px"></img>
-                  <h4>Geographical distribution of genetic traits.</h4>
-                  <p style="max-width: 600px">A web application allowing to visualize the geographical distribution of
-                    ~200 genetic related traits in the UK.</p>
+                  <h4>Stock Market Analysis Dashboard</h4>
+                  <p style="max-width: 600px">A data analytics project focused on stock market performance, financial trends, and investment metrics through automated data pipelines and interactive dashboards.</p>
                   <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase js-scroll-trigger"
-                    href="https://holtzyan.shinyapps.io/UKB_geo/">Online app</a>
+                    href="">Online app</a>
                   <br><br>
                   <div style="text-align: left">
                     <h6>Description</h6>
                     <hr>
-                    <p>A group of researcher from the <a href="https://imb.uq.edu.au">Institute of Molecular
-                        Bioscience</a> investigated the geographic clustering of genetic variants that influence
-                      complex traits and disease risk in a sample of ~450,000 individuals from Great Britain.</p>
-                    <p>I built a web application that goes in support of the paper intitled <a
-                        href="https://www.biorxiv.org/content/early/2018/10/30/457515">Genetic Consequences of Social
-                        Stratification in Great Britain</a>.</p>
+                    <p>This project analyzes historical stock market data from major technology companies, including Apple, Microsoft, Google, and Tesla. The solution combines Python-based ETL processes, PostgreSQL storage, and Power BI visualizations to transform raw financial data into actionable.</p>
                     <img src="img/portfolio/ukbGeoDemo.png" width="100%"></img>
-                    <p>The <a href="https://holtzyan.shinyapps.io/UKB_geo/">shiny application</a> allows to visualize
-                      the geographic distribution of any trait. It allows to custom color scales, region shape and to
-                      apply a <a href="https://www.data-to-viz.com/graph/cartogram.html">cartogram</a> algorithm to
-                      the map. Moreover, the tool allows one to upload its <u>own data</u> to benefit this dataviz
-                      tool.</p>
-                    <h6>Read more</h6>
-                    <hr>
-                    <span>The web application is available <a href="https://holtzyan.shinyapps.io/UKB_geo/">online</a>.
-                      You can read the scientific paper on
-                      <a href="https://www.biorxiv.org/content/early/2018/10/30/457515">BioArXiv</a>. The source code
-                      of the project are of course on <a
-                        href="https://github.com/holtzy/UKB_geo_application">Github</a>.</span>
+                     <p>The dashboard allows users to compare companies, explore historical price movements and identify trends in stock market performance through interactive visualizations.</p>
+                  <h6>Technologies</h6>
+                  <hr>
+                  <p><code>Python</code> <code>Pandas</code> <code>SQL</code> <code>PostgreSQL</code> <code>Power BI</code> <code>DAX</code> <code>ETL</code></p>
+                  <h6>Read more</h6>
+                  <hr>
+                  <span>The complete project and source code are available on <a href="https://github.com/florenciahidalgo/analisis-precios-acciones">Github</a>.</span>
+                  <div style="margin-top: 5px;">
+                    <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                      href="https://github.com/florenciahidalgo/analisis-precios-acciones">Github</a>
                     <div style="margin-top: 5px;">
-                      <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
-                        href="https://holtzyan.shinyapps.io/UKB_geo/">Online app</a>
-                      <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
-                        href="https://github.com/holtzy/UKB_geo_application">Github</a>
-                      <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
-                        href="https://www.biorxiv.org/content/early/2018/10/30/457515">Paper</a>
+                    
+                     
                     </div>
                   </div>
                 </div>
@@ -1115,6 +1135,53 @@
       </div>
   </center>
 
+
+  <!-- Sales Performance Analysis -->
+<center>
+  <div class="portfolio-modal modal fade" id="SalesPerformance" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog h-100">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="modal-body">
+                <img src="img/portfolio/Sales-Performance.png" width="180px"></img>
+                <h4>Sales Performance Analysis</h4>
+                <p style="max-width: 600px">An exploratory data analysis project focused on evaluating sales performance and identifying the main drivers of revenue over a one-month period.</p>
+                <br><br>
+                <div style="text-align: left">
+                  <h6>Description</h6>
+                  <hr>
+                  <p>This project integrates and analyzes multiple data sources to evaluate sales performance over a one-month period. The analysis combines information about products, sellers and transaction records to generate actionable insights and support business decision-making.</p>
+                  <p>The analysis addresses key business questions such as identifying the best-selling products by units sold, determining which products generated the highest revenue and evaluating seller performance to identify the top seller of the month.</p>
+                  <center><img src="img/portfolio/P6.png" width="80%"></img></center>
+                  <p>The project also analyzes sales trends over time to identify variations in daily sales and better understand the behavior of sales throughout the month.</p>
+                  <p>The data was integrated from three different sources: an <code>SQLite</code> database containing product information, an <code>Excel</code> file containing seller information and a <code>CSV</code> file containing the monthly transaction records.</p>
+                  <p>The analysis was performed using <code>Python</code>, with <code>Pandas</code> for data manipulation and exploratory analysis, <code>NumPy</code> for numerical operations, and <code>Matplotlib</code> and <code>Seaborn</code> for data visualization.</p>
+                  <h6>Technologies</h6>
+                  <hr>
+                  <p><code>Python</code> <code>Pandas</code> <code>NumPy</code> <code>Matplotlib</code> <code>Seaborn</code> <code>SQLite</code> <code>Excel</code> <code>CSV</code></p>
+                  <h6>Read more</h6>
+                  <hr>
+                  <span>The complete analysis and source code are available on <a href="https://github.com/florenciahidalgo/analysis-proyects/blob/main/performance-comercial/README.md">Github</a>.</span>
+                  <div style="margin-top: 5px;">
+                    <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                      href="https://github.com/florenciahidalgo/analysis-proyects/blob/main/performance-comercial">Github</a>
+                      <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                        href="https://deepnote.com/app/trabajo-2-cac/Sales-Performance-Analysis-0661badc-2a02-4673-9f02-97ed00dc1a62?utm_source=app-settings&utm_medium=product-shared-content&utm_campaign=data-app&utm_content=0661badc-2a02-4673-9f02-97ed00dc1a62">Online app</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </center>
 
 
   <!-- Genetic Map Comparator -->
@@ -1237,46 +1304,45 @@
   </center>
 
 
-  <!-- Terres Inovia -->
-  <center>
-    <div class="portfolio-modal modal fade" id="terresInovia" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog h-100">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+
+<!-- Data Center - Stranded Capacity -->
+<center>
+  <div class="portfolio-modal modal fade" id="StrandedCapacity" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog h-100">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/TI4.png" width="180px"></img>
-                  <h4>Dashboard for <i>Terres Inovia</i></h4>
-                  <p style="max-width: 600px">Creation of a dashboard to explore the database of a private company.
-                  </p>
-                  <br><br>
-                  <div style="text-align: left">
-                    <h6>Description</h6>
-                    <hr>
-                    <p><a href="http://www.terresinovia.fr">Terres Inovia</a> is a French company carrying out applied
-                      research on oilseed plants and protein crop. It phenotypes the main varieties of 20 crop species
-                      in many locations for several traits every year. This information is stored in a massive
-                      <code>SQL</code> database.
-                    </p>
-                    <p>I created a <code>dashboard</code> allowing to explore these data. It allows to quickly
-                      understand what variety performs well in what kind of environmental condition. It thus has a
-                      direct impact on advices provided to farmer in France.</p>
-                    <p>The dashboard was created using <code>R</code> and <code>Shiny</code>. It requires several
-                      <code>HTML widgets</code> to create interactive graphs, and specific packages to interact with
-                      the database. Here is a screenshot of the welcome page of the application:
-                    </p>
-                    <center><img src="img/portfolio/TI1.png" width="80%"></img></center>
-                    <br><br>
-                    <h6>Read more</h6>
-                    <hr>
-                    <span>I can't provide more information on this project for privacy reasons.</span>
-                    <br><br><br>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="modal-body">
+                <img src="img/portfolio/Stranded-capacity.png" width="180px"></img>
+                <h4>Data Center Stranded Capacity</h4>
+                <p style="max-width: 600px">A data-driven approach to estimate stranded capacity in data centers and identify opportunities to improve infrastructure utilization and reduce energy waste.</p>
+                <br><br>
+                <div style="text-align: left">
+                  <h6>Description</h6>
+                  <hr>
+                  <p>Data centers require significant amounts of infrastructure and energy to operate. However, part of their available capacity may remain underutilized due to infrastructure constraints, operational limitations or mismatches between different components of the facility.</p>
+                  <p>This project explores the concept of <u>stranded capacity</u>: capacity that exists within a data center but cannot be effectively used to support productive computing workloads.</p>
+                  <p>We developed a data-driven estimation model to assess the potential range of stranded capacity using publicly available industry data and key infrastructure variables such as facility size, utilization, PUE and cooling configuration.</p>
+                  <center><img src="img/portfolio/strandedCapacity-metrics.png" width="80%"></img></center>
+                  <p>The project combines data collection, web scraping, <code>API</code> integrations and <code>ETL</code> processes to bring together information from different sources and support the estimation model.</p>
+                  <p>Rather than providing a single precise value, the model estimates a range of potential stranded capacity. This approach helps illustrate the scale of the problem and identify opportunities to improve resource utilization and reduce energy waste.</p>
+                  <h6>Technologies</h6>
+                  <hr>
+                  <p><code>Python</code> <code>Pandas</code> <code>SQL</code> <code>ETL</code> <code>APIs</code> <code>Web Scraping</code> <code>Data Visualization</code> <code>Dashboard</code></p>
+                  <h6>Read more</h6>
+                  <hr>
+                  <span>This project was developed as a collaborative data analytics project focused on infrastructure efficiency, capacity utilization and energy waste in data centers.</span>
+                  <div style="margin-top: 5px;">
+                    <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                      href="https://github.com/No-Country-simulation/S07-26-Team-33">Github</a>
+                    <a class="btn btn-secondary btn text-uppercase js-scroll-trigger"
+                      href="https://s07-26-team-33-8dnryneg52zimeygftuqin.streamlit.app/">Project</a>
                   </div>
                 </div>
               </div>
@@ -1290,43 +1356,48 @@
 
 
 
-  <!-- Researcher Network-->
-  <center>
-    <div class="portfolio-modal modal fade" id="authorRelation" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog h-100">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+```html
+<!-- Telecom Churn Analysis -->
+<center>
+  <div class="portfolio-modal modal fade" id="TelecomChurn" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog h-100">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/Network_Coauthor.png" width="180px"></img>
-                  <h4>Exploring co-author relationships</h4>
-                  <p style="max-width: 600px"></p>
-                  <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase js-scroll-trigger"
-                    href="https://holtzyan.shinyapps.io/the-nb-como-project/">Online app</a>
-                  <br><br>
-                  <div style="text-align: left">
-                    <h6>Description</h6>
-                    <hr>
-                    <p>Google Scholar is a service that provides any researchers list of publication. I made a script
-                      that harvest this information on the web using <code>R</code>. It then take the list of all
-                      co-authors and check for each pair if they have published a paper together.</p>
-                    <p>The network information is then visualized using <a href="">static graphs</a> with R, and also
-                      using <a href="">interactive version</a> thanks to d3.js</p>
-                    <a href="https://www.data-to-viz.com/graph/arc.html">
-                      <center><img src="img/portfolio/researchNet.png" width="80%"></img></center>
-                    </a>
-                    <h6>Read more</h6>
-                    <hr>
-                    <span>Data mining part of the pipeline is available on <a href="">github</a>. Visualizations are
-                      used as example in my other projects: static charts in <a href="">data to viz</a>, interactive
-                      ones in the <a href="">d3 graph gallery</a>.</span>
-                    <br><br><br>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="modal-body">
+                <img src="img/portfolio/capture.png" width="180px"></img>
+                <h4>Telecom Churn Analysis</h4>
+                <p style="max-width: 600px">A Business Intelligence project focused on analyzing customer churn, identifying key patterns and measuring the financial impact of customer cancellations.</p>
+                <br><br>
+                <div style="text-align: left">
+                  <h6>Description</h6>
+                  <hr>
+                  <p>This project analyzes customer churn in a telecommunications company to understand the main factors associated with customer cancellations and quantify their impact on revenue.</p>
+                  <p>The project follows a complete data analytics workflow, starting with data generation and preparation in <code>Python</code>, followed by data storage and modeling in <code>SQL Server</code>, and ending with an interactive <code>Power BI</code> dashboard.</p>
+                  <center><img src="img/portfolio/GreenTech.png" width="50%"></img></center>
+                  <p>The data preparation process includes missing value treatment, data validation and transformation using <code>Pandas</code> and <code>NumPy</code>. More than 1,500 transactional records were generated to simulate the telecommunications environment.</p>
+                  <p>A <u>Star Schema</u> was implemented in <code>SQL Server</code>, using primary and foreign keys to organize the data into fact and dimension tables and support analytical queries.</p>
+                  <p>The resulting model was connected to <code>Power BI</code>, where <code>DAX</code> measures and Filter Context were used to create dynamic KPIs and interactive visualizations.</p>
+                  <p>The dashboard focuses on metrics such as <b>Churn Rate</b>, number of churned customers and <b>Revenue Lost</b>, allowing users to explore customer behavior and understand the financial impact of cancellations.</p>
+                  <h6>Technologies</h6>
+                  <hr>
+                  <p><code>Python</code> <code>Pandas</code> <code>NumPy</code> <code>SQL Server</code> <code>Power BI</code> <code>DAX</code> <code>Power Query</code></p>
+                  <h6>Technical Architecture</h6>
+                  <hr>
+                  <p><b>Data Processing:</b> Python scripts for data generation, cleaning and preparation.</p>
+                  <p><b>Storage & Modeling:</b> SQL Server with a Star Schema designed for analytical queries.</p>
+                  <p><b>Business Intelligence:</b> Power BI dashboard with DAX measures, dynamic KPIs and interactive filters.</p>
+                  <h6>Read more</h6>
+                  <hr>
+                  <span>The complete project, source code and analysis are available on <a href="https://github.com/florenciahidalgo/telecomunicaciones-analysis">Github</a>.</span>
+                  <div style="margin-top: 5px;">
+                    <a class="btn btn-secondary btn text-uppercase js-scroll-trigger" href="https://github.com/florenciahidalgo/telecomunicaciones-analysis">Github</a>
                   </div>
                 </div>
               </div>
@@ -1335,101 +1406,12 @@
         </div>
       </div>
   </center>
-
-  <!-- Greentech-->
-  <center>
-    <div class="portfolio-modal modal fade" id="greenTech" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog h-100">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/GreenTech.png" width="180px"></img>
-                  <h4>The Greentech challenge</h4>
-                  <p style="max-width: 600px">Studying water pollution for the French Ministery of environment.</p>
-                  <p style="max-width: 600px"><i>Third price for this dataviz competition.</i></p>
-                  <br><br>
-                  <div style="text-align: left">
-                    <h6>Description</h6>
-                    <hr>
-                    <p>The GreenTech challenge is a Dataviz competition launched by the French Ministery of
-                      environment that took place in 2017. A huge dataset concerning pesticides in France has been
-                      released, and the goal was to build innovative visualizations to sensibilize and inform citizen
-                      concerning the french situation over the past 6 Years.</p>
-                    <p>We decided to make a team of 4 friends and built a <code>ShinyApp</code> that allows to
-                      efficiently explore this dataset. The app is composed by several sheets, each targeting a
-                      specific theme. This tool should allow you to understand what happens in your neighbourhood and
-                      in the entire country. It is also studied to improve your genereal knowledge concerning
-                      pesticides.</p>
-                    <center><img src="img/portfolio/GreenTech-screen.png" width="80%"></img></center>
-                    <h6>Read more</h6>
-                    <hr>
-                    <span>See the associated <a
-                        href="https://github.com/holtzy/GreenTech-Challenge/blob/master/README.md">github
-                        repository</a> for more information and source code of the project.</span>
-                    <br><br><br>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </center>
+```
 
 
 
 
-  <!-- UNICS -->
-  <center>
-    <div class="portfolio-modal modal fade" id="unics" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog h-100">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <div class="modal-body">
-                  <img src="img/portfolio/Unics_logo.png" width="180px"></img>
-                  <p style="max-width: 600px">Online tool to estimate standard error of allele frequency in
-                    pool-sequencing experiments.</p>
-                  <a style="margin-top: 0px" class="btn btn-secondary btn text-uppercase js-scroll-trigger"
-                    href="http://www.agap-sunshine.inra.fr/unics/">Online app</a>
-                  <br><br>
-                  <div style="text-align: left">
-                    <h6>Description</h6>
-                    <hr>
-                    <p>UNICS is a <a href="http://www.agap-sunshine.inra.fr/unics/">web app</a> that helps you
-                      computing the standard error of allele frequency estimations of future pool-sequencing
-                      experiments based on different parameters. You can use it trough the <a
-                        href="http://www.agap-sunshine.inra.fr/unics/">online version</a> and read the <a
-                        href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.12723">related
-                        publication</a>.</p>
-                    <p>Application looks like this:</p>
-                    <center><img src="img/portfolio/unics_screen.png" width="80%"></img></center>
-                    <h6>Read more</h6>
-                    <hr>
-                    <span>See the associated <a href="https://github.com/holtzy/Unics">github repository</a> for more
-                      information and source code of the project.</span>
-                    <br><br><br>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </center>
+
 
 
   <!-- SURFERS TRAVEL -->
@@ -1446,11 +1428,11 @@
             <div class="row">
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
-                  <img src="img/portfolio/Surf.png" width="180px"></img>
-                  <h4>The <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23surf&src=typd">#surf</a>
+                  <img src="img/portfolio/.png" width="180px"></img>
+                  <h4>The <a href="https://twitter.com/s">#surf</a>
                     project.</h4>
                   <p style="max-width: 600px">I recovered tweets containing <a
-                      href="https://twitter.com/search?f=tweets&vertical=default&q=%23surf&src=typd">#surf</a> for 9
+                      href="https://twitter.com/">#surf</a> for 9
                     months. Here is where surfers travel.</p>
                   <br><br>
                   <div style="text-align: left">
@@ -1462,15 +1444,15 @@
                       deduce where surfers travel.
                     </p>
                     <p>Here is an overview of the result:</p>
-                    <a href="https://www.data-to-viz.com/story/MapConnection.html">
-                      <center><img src="img/portfolio/surf_travel.png" width="80%"></img></center>
+                    <a href="https://">
+                      <center><img src="img/portfolio/" width="80%"></img></center>
                     </a>
                     <h6>Read more</h6>
                     <hr>
                     <span>See the dedicated page in <a
-                        href="https://www.data-to-viz.com/story/MapConnection.html">data-to-viz.com</a> that tells
+                        href="https://"></a> that tells
                       more about this project, with explanation on how to build a <a
-                        href="https://www.data-to-viz.com/story/MapConnection.html">connection map</a>.</span>
+                        href="https://">connection map</a>.</span>
                     <br><br><br>
                   </div>
                 </div>
@@ -1517,8 +1499,7 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79254642-3"></script>
-  <script>
+  <script async src="https://www.googletagmanager.com/gtag/
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
